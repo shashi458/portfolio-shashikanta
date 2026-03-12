@@ -72,6 +72,20 @@ const Hero = () => {
             <Phone className="w-5 h-5" />
           </a>
         </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="flex-shrink-0"
+        >
+          <img
+            src={profileImg}
+            alt="Shashikanta Das"
+            className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-primary/30 shadow-lg shadow-primary/10"
+          />
+        </motion.div>
       </div>
 
       <motion.div
