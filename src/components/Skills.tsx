@@ -4,8 +4,8 @@ const skills = [
   { category: "Languages", items: ["PHP", "HTML", "CSS", "JavaScript", "WordPress"] },
   { category: "Frameworks", items: ["Laravel 9/10/11/12", "Bootstrap"] },
   { category: "Databases", items: ["MySQL", "PostgreSQL"] },
-  { category: "Tools & DevOps", items: ["Git", "GitHub", "Composer", "Artisan", "Postman", "VS Code", "cPanel", "Vercel"] },
-  { category: "Architecture", items: ["MVC", "RESTful APIs", "OOP", "Dependency Injection"] },
+  { category: "Tools", items: ["Git", "GitHub", "Composer", "Artisan", "Postman", "VS Code", "cPanel", "Vercel"] },
+  { category: "Architecture", items: ["MVC", "RESTful APIs", "OOP"] },
   { category: "Servers", items: ["Apache"] },
 ];
 
