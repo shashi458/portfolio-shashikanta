@@ -32,7 +32,7 @@ const Experience = () => {
               <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-primary border-4 border-background" />
               <h4 className="font-heading font-semibold text-lg">Software Developer</h4>
               <p className="text-primary font-mono text-sm">IIG Technology, Bhubaneswar</p>
-              <p className="text-muted-foreground text-sm">December 2025 – Present</p>
+              <p className="text-muted-foreground text-sm">October 2024 – Present</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: -20 }}
