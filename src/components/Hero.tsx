@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Phone, ChevronDown } from "lucide-react";
+import profileImg from "@/assets/profile.jpeg";
 
 const Hero = () => {
   return (
@@ -8,7 +9,8 @@ const Hero = () => {
       <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary/10 rounded-full blur-[120px]" />
       <div className="absolute bottom-1/4 right-0 w-64 h-64 bg-primary/5 rounded-full blur-[100px]" />
 
-      <div className="relative z-10 max-w-4xl">
+      <div className="relative z-10 max-w-6xl w-full flex flex-col-reverse md:flex-row items-center gap-10">
+        <div className="flex-1">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -69,6 +71,20 @@ const Hero = () => {
             className="p-3 glass rounded-lg hover:border-primary/50 transition-colors">
             <Phone className="w-5 h-5" />
           </a>
+        </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="flex-shrink-0"
+        >
+          <img
+            src={profileImg}
+            alt="Shashikanta Das"
+            className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-primary/30 shadow-lg shadow-primary/10"
+          />
         </motion.div>
       </div>
 
